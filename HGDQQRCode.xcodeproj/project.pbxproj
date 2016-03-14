@@ -15,6 +15,8 @@
 		10FFB5A71C8FFE44001AEDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FFB5A51C8FFE44001AEDEF /* LaunchScreen.storyboard */; };
 		10FFB5B21C8FFE44001AEDEF /* HGDQQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FFB5B11C8FFE44001AEDEF /* HGDQQRCodeTests.m */; };
 		10FFB5BD1C8FFE44001AEDEF /* HGDQQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FFB5BC1C8FFE44001AEDEF /* HGDQQRCodeUITests.m */; };
+		10FFB5CC1C8FFEDC001AEDEF /* HGDQQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FFB5CB1C8FFEDC001AEDEF /* HGDQQRCodeView.m */; };
+		10FFB5CE1C8FFFBA001AEDEF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10FFB5CD1C8FFFBA001AEDEF /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		10FFB5B81C8FFE44001AEDEF /* HGDQQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGDQQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FFB5BC1C8FFE44001AEDEF /* HGDQQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGDQQRCodeUITests.m; sourceTree = "<group>"; };
 		10FFB5BE1C8FFE44001AEDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FFB5CA1C8FFEDC001AEDEF /* HGDQQRCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGDQQRCodeView.h; sourceTree = "<group>"; };
+		10FFB5CB1C8FFEDC001AEDEF /* HGDQQRCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGDQQRCodeView.m; sourceTree = "<group>"; };
+		10FFB5CD1C8FFFBA001AEDEF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +110,11 @@
 				10FFB59B1C8FFE44001AEDEF /* AppDelegate.m */,
 				10FFB59D1C8FFE44001AEDEF /* ViewController.h */,
 				10FFB59E1C8FFE44001AEDEF /* ViewController.m */,
+				10FFB5CA1C8FFEDC001AEDEF /* HGDQQRCodeView.h */,
+				10FFB5CB1C8FFEDC001AEDEF /* HGDQQRCodeView.m */,
 				10FFB5A01C8FFE44001AEDEF /* Main.storyboard */,
 				10FFB5A31C8FFE44001AEDEF /* Assets.xcassets */,
+				10FFB5CD1C8FFFBA001AEDEF /* logo.png */,
 				10FFB5A51C8FFE44001AEDEF /* LaunchScreen.storyboard */,
 				10FFB5A81C8FFE44001AEDEF /* Info.plist */,
 				10FFB5971C8FFE44001AEDEF /* Supporting Files */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FFB5CE1C8FFFBA001AEDEF /* logo.png in Resources */,
 				10FFB5A71C8FFE44001AEDEF /* LaunchScreen.storyboard in Resources */,
 				10FFB5A41C8FFE44001AEDEF /* Assets.xcassets in Resources */,
 				10FFB5A21C8FFE44001AEDEF /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FFB5CC1C8FFEDC001AEDEF /* HGDQQRCodeView.m in Sources */,
 				10FFB59F1C8FFE44001AEDEF /* ViewController.m in Sources */,
 				10FFB59C1C8FFE44001AEDEF /* AppDelegate.m in Sources */,
 				10FFB5991C8FFE44001AEDEF /* main.m in Sources */,
@@ -414,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HGDQQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhuming.HGDQQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HGDQQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhuming.HGDQQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";

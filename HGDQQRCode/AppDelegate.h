@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  HGDQQRCode
 //
-//  Created by myhg on 16/3/9.
+//  Created by zhuming on 16/3/9.
 //  Copyright © 2016年 zhuming. All rights reserved.
 //
 
