@@ -85,5 +85,6 @@ eg:
 关于iOS下原生的二维码的生成和识别可以看这两篇博客，里面有详细的说明。<br>
 [《【iOS】CoreImage原生二维码生成（一）》](http://blog.csdn.net/zhuming3834/article/details/50832953)<br>
 [《【iOS】CoreImage原生二维码生成（二）一个方法生成带logo的二维码》](http://blog.csdn.net/zhuming3834/article/details/50835659)<br>
+[《【iOS】一个方法读取图片中的二维码信息》](http://blog.csdn.net/zhuming3834/article/details/50835808)<br>
 
 
